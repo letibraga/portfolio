@@ -3,7 +3,7 @@
   grid-column: 1 / 3;
 }
   
-.project__content {
+#project__content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
@@ -28,36 +28,36 @@
 }
   
 .project picture {
-    width: 100%;
-    height: 220px;
+  width: 100%;
+  height: 220px;
     
-    overflow: hidden;
+  overflow: hidden;
 }
   
 .project picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
     
-    transition: all 0.4s;
+  transition: all 0.4s;
 }
   
 .project strong {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--secondary);
-    text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--secondary);
+  text-align: center;
     
-    padding: 0 18px;
-    transition: all 0.4s;
+  padding: 0 18px;
+  transition: all 0.4s;
 }
   
 .project:hover picture img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
   
 .project:hover strong {
-    color: var(--link); 
+  color: var(--link); 
 }
   
   
